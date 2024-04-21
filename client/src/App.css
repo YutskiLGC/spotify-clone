@@ -1,0 +1,44 @@
+body {
+  background-color:black;
+}
+.header {
+  background-color:grey;
+  color:white;
+  text-align: center;
+  vertical-align: center;
+  height:80px
+}
+.left-side {
+  color:white;
+  background-color:green;
+  height:400px;
+  width:50%;
+}
+.right-side {
+  color: white;
+  background-color: blue;
+  height: 400px;
+  width: 50%;
+  position: absolute;
+  right:0;
+  top: 97px;
+}
+.play-now {
+  color:white;
+  background-color:red;
+  height:200px;
+  text-align:center;
+  position:absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.navbar {
+  background-color: purple;
+  height:60px
+}
+.navbar p {
+  display: inline-block;
+  margin: 0 40px; /* Add margin between links */
+  margin-top: 30px;
+}
